@@ -1,8 +1,22 @@
-﻿/*
+﻿/***********************/
+/*****Te3Ka_PaynE*******/
+/*Mnement4813@yandex.ru*/
+/***********************/
+
+/*
 Напишите программу, которая принимает на вход число N и выдаёт произведение чисел от 1 до N.
 4 -> 24 
 5 -> 120
 */
+
+//Метод с указанием автора
+void Author()
+{
+    Console.WriteLine();
+    Console.WriteLine("Программа создана Te3Ka_PaynE.");
+    Console.WriteLine("E-mail: Mnement4813@yandex.ru");
+    Console.WriteLine();
+}
 
 int Factorial(int N)
 {
@@ -25,3 +39,5 @@ if (num <= 0)
 }
 
 Console.WriteLine(Factorial(num));
+
+Author();
